@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { useState } from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Nav from './Nav';
+import DisplayData from './DisplayData';
 
 function App() {
+const [fileName, setFileName] = useState('');
+const [fileContent, setFileContent] = useState([]);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header title='readfile'/>
+      <Nav 
+        setFileName = {setFileName}
+        setFileContent = {setFileContent}
+      />
+      <DisplayData 
+        fileName = {fileName}
+        fileContent = {fileContent}
+      />
+      <Footer />     
     </div>
   );
 }
