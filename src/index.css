@@ -45,11 +45,45 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  place-content: center;
+  text-align: center;
+}
+
+.Login{
+  position: relative;
+  float: right;
+}
+ .ReadCSVfile {
+  display: flex;
+  flex-direction: row;
+ }
+ .AcceptedFile {
+  border: '1px solid #ccc';
+  height: 40;
+  line-height: 2.5;
+  padding-Left: 10;
+  min-width: 80px;
+  padding-right: 0.5rem;
+ }
+.AddFile, .RemoveFile {
+  height: 40px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  background-color: rgb(248, 245, 245);
+  color: royalblue;
+  cursor: pointer;
+}
+.AddFile:focus, .RemoveFile:focus,
+.AddFile:hover, .RemoveFile:hover {
+  color: aliceblue;
+  background-color: royalblue;
+  outline: none;
 }
 
 .Header h1 {
   font-size: 1.5rem;
+  
 }
 
 .Header svg {
@@ -64,11 +98,13 @@ body {
 
 .Nav {
   width: 100%;
-  background-color: #333;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  border-bottom: solid rgb(133, 128, 128);
+  padding: 0.5rem;
 }
 
 .DisplayData {

@@ -1,12 +1,11 @@
 import React from 'react'
 import ReadCSVfile from './ReadCSVfile'
-const Nav = ({ setFileName, setFileContent }) => {
+
+const Nav = () => {
+
   return (
-    <nav>
-        <ReadCSVfile
-            setFileName = {setFileName}
-            setFileContent = {setFileContent}
-        />
+    <nav className='Nav'>
+        <ReadCSVfile/>
     </nav>
   )
 }

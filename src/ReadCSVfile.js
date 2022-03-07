@@ -1,13 +1,18 @@
 import React from 'react';
 import { useCSVReader } from 'react-papaparse';
-const ReadCSVfile = ({ setFileName, setFileContent }) => {
+import { useStoreActions, useStoreState } from 'easy-peasy';
+
+const ReadCSVfile = () => {
+    const setFileContent = useStoreActions((actions) => actions.setFileContent);
+    const ifLogin = useStoreState((state) => state.ifLogin);
     const { CSVReader } = useCSVReader();
   return (
     <CSVReader onUploadAccepted = {(results) => {
         console.log('---------------------------');
         console.log(results);
         console.log('---------------------------');
-        setFileContent(results.data);
+        ifLogin ? setFileContent(results.data) : setFileContent([])
+        
       }}>
     {({
         getRootProps,
@@ -16,15 +21,15 @@ const ReadCSVfile = ({ setFileName, setFileContent }) => {
         getRemoveFileProps,
       }) => (
         <>
-          <div >
-            <button type='button' {...getRootProps()} >
+          <div className='ReadCSVfile'>
+            <button type='button' className='AddFile' {...getRootProps()} >
               Browse file
             </button>
-            <div>
-              {acceptedFile && acceptedFile.name}
+            <div className='AcceptedFile'>
+              {acceptedFile && acceptedFile.name ? acceptedFile.name : 'Choose a CSV file'}
               
             </div>
-            <button {...getRemoveFileProps()} onClick={() => {setFileContent([])}}>
+            <button className='RemoveFile'{...getRemoveFileProps()} onClick={() => {setFileContent([])}}>
               Remove
             </button>
           </div>

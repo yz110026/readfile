@@ -1,22 +1,36 @@
 import React from 'react';
-
-const DisplayData = ({ fileName, fileContent }) => {
-  return (
-    <div className='DisplayData'>
-        {console.log({fileName, fileContent})}
-        <table>
-            <tbody>
-                {fileContent.map(row => (
-                    <tr key={row.id}>
-                        {row.map(cell => (
-                            <td key={cell.id}>{cell}</td>
+import { useStoreState } from 'easy-peasy';
+const DisplayData = () => {
+    const fileContent = useStoreState((state) => state.fileContent);
+    const ifLogin = useStoreState((state) => state.ifLogin);
+    
+    if ( !ifLogin ) {
+        return (
+            <div className='DisplayData'>
+                <p>You should Login first!</p>
+            </div>
+        );
+    } else {
+        return (
+      
+            <div className='DisplayData'>
+                {console.log({fileContent})}
+                { fileContent.length ? 
+                <table>
+                    <tbody>
+                        {fileContent.map(row => (
+                            <tr key={row.id}>
+                                {row.map(cell => (
+                                    <td key={cell.id}>{cell}</td>
+                                ))}
+                            </tr>
                         ))}
-                    </tr>
-                ))}
-            </tbody>
-        </table>
-    </div>
-  );
+                    </tbody>
+                </table> : 'Please choose a CSV file!'}
+                
+            </div>
+        );
+    }  
 }
 
 export default DisplayData;
