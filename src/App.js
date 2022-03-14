@@ -4,15 +4,33 @@ import Header from './Header';
 import Footer from './Footer';
 import Nav from './Nav';
 import DisplayData from './DisplayData';
-
+import useAxiosFecth from './hooks/useAxiosFetch';
+import { useStoreActions, useStoreState } from 'easy-peasy';
+import { useEffect } from 'react';
+import Files from './Files';
+import { Route, Switch } from 'react-router-dom'
 function App() {
-//const [fileName, setFileName] = useState('');
-//const [fileContent, setFileContent] = useState([]);
+  const setFiles = useStoreActions((actions) => actions.setFiles);
+  const files = useStoreState((state) => state.files);
+  const { data, fetchError, isLoading } = useAxiosFecth('http://localhost:3500/files');
+  
+  useEffect(() => {
+    setFiles(data);
+  }, [data,setFiles]);
+  console.log(files)
   return (
     <div className="App">
       <Header/>
       <Nav />
-      <DisplayData />
+      <Switch>
+        <Route exact path="/">
+          <Files
+            fetchError = {fetchError}
+            isLoading = {isLoading}
+          />
+        </Route>
+        <Route path="/file/:id" component={DisplayData}/>
+      </Switch>
       <Footer />     
     </div>
   );

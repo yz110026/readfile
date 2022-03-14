@@ -1,36 +1,32 @@
 import React from 'react';
-import { useStoreState } from 'easy-peasy';
+import { useStoreState, useStoreActions } from 'easy-peasy';
+import { useParams,useHistory } from 'react-router-dom';
+import { useState } from 'react';
 const DisplayData = () => {
-    const fileContent = useStoreState((state) => state.fileContent);
-    const ifLogin = useStoreState((state) => state.ifLogin);
+    const { id } = useParams();
+    const history = useHistory();
+    const getFileById = useStoreState((state) => state.getFileById);
+    const file = getFileById(id);
     
-    if ( !ifLogin ) {
-        return (
-            <div className='DisplayData'>
-                <p>You should Login first!</p>
-            </div>
-        );
-    } else {
-        return (
-      
-            <div className='DisplayData'>
-                {console.log({fileContent})}
-                { fileContent.length ? 
-                <table>
-                    <tbody>
-                        {fileContent.map(row => (
-                            <tr key={row.id}>
-                                {row.map(cell => (
-                                    <td key={cell.id}>{cell}</td>
-                                ))}
-                            </tr>
-                        ))}
-                    </tbody>
-                </table> : 'Please choose a CSV file!'}
-                
-            </div>
-        );
-    }  
+    
+    return (
+        <div className='DisplayData'>
+            {file ? <table className='table table-hover'>
+                <tbody key={file.content.id}>
+                    {file.content.map(row => (
+                        <tr key={row.id}>
+                            {row.map(cell => (
+                                <td key={cell.id}>{cell}</td>
+                            ))}
+                        </tr>
+                    ))}
+                </tbody>
+            </table> : history.push('/')}   
+        </div> 
+        
+        
+    );
+    
 }
 
 export default DisplayData;
