@@ -35,7 +35,7 @@ const PlotLineChart = () => {
     <main className='PlotLineChart'>
       <div className='card'>
         <div className="card-header">
-          Please select X and Y value(s) to make plot:
+          Please select X and Y value(s) to make a plot:
         </div>
         <div className='card-body' >
         <div className="btn-group" id="selectbox" role="group" aria-label="Basic radio toggle button group">
