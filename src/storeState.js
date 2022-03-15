@@ -14,6 +14,10 @@ export default createStore({
     setFileContent: action((state, payload) => {
         state.fileContent = payload
     }),
+    fileHeaders: [],
+    setFileHeaders: action((state, payload) => {
+        state.fileHeaders = payload
+    }),
     userName: '',
     setUserName: action((state, payload) => {
         state.userName = payload
@@ -30,6 +34,7 @@ export default createStore({
             actions.setFiles([...files, response.data]);
             actions.setFileName([]);
             actions.setFileContent([]);
+            actions.setFileHeaders([]);
         } catch (err) {
             console.log(`Error: ${err.message}`);
         }
@@ -48,4 +53,5 @@ export default createStore({
     getFileById: computed((state) => {
         return (id) => state.files.find(file => (file.id).toString() === id);
     }),
+
 });

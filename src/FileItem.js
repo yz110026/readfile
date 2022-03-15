@@ -14,12 +14,23 @@ const FileItem = ({file}) => {
             <Link to={`/file/${file.id}`} >
                 <label className="FileItem"> <GrDocumentCsv/> {file.fileName}</label>
             </Link>
-            <FaTrashAlt 
-                className='trashbutton'
-                role="button" 
-                tabIndex="0" 
-                onClick={() => deleteFile(file.id)}
-            />
+            <div className='Card_options'>
+                <div className="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" className="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Make Plots
+                    </button>
+                    <ul className="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <li><Link to={`/line_chart/file/${file.id}`} className='dropdown-item'>Line Chart</Link></li>
+                    <li><Link to={`/histogram/file/${file.id}`} className='dropdown-item'>Histogram</Link></li>
+                    </ul>
+                </div> 
+                <FaTrashAlt 
+                    className='trashbutton'
+                    role="button" 
+                    tabIndex="0" 
+                    onClick={() => deleteFile(file.id)}
+                />
+            </div>
         </div>
         
     </li>

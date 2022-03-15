@@ -2,666 +2,6137 @@
   "files": [
     {
       "id": 1,
-      "fileName": "friends.csv",
-      "content": [
-        [
-          "Friend",
-          "Max temp",
-          "Weight",
-          "Height",
-          "Years",
-          "Gender",
-          "Company"
-        ],
-        [
-          "Andrew",
-          "25",
-          "77",
-          "175",
-          "10",
-          "M",
-          "Good"
-        ],
-        [
-          "Bernhard",
-          "31",
-          "110",
-          "195",
-          "12",
-          "M",
-          "Good"
-        ],
-        [
-          "Carolina",
-          "15",
-          "70",
-          "172",
-          "2",
-          "F",
-          "Bad"
-        ],
-        [
-          "Dennis",
-          "20",
-          "85",
-          "180",
-          "16",
-          "M",
-          "Good"
-        ],
-        [
-          "Eve",
-          "10",
-          "65",
-          "168",
-          "0",
-          "F",
-          "Bad"
-        ],
-        [
-          "Fred",
-          "12",
-          "75",
-          "173",
-          "6",
-          "M",
-          "Good"
-        ],
-        [
-          "Gwyneth",
-          "16",
-          "75",
-          "180",
-          "3",
-          "F",
-          "Bad"
-        ],
-        [
-          "Hayden",
-          "26",
-          "63",
-          "165",
-          "2",
-          "F",
-          "Bad"
-        ],
-        [
-          "Irene",
-          "15",
-          "55",
-          "158",
-          "5",
-          "F",
-          "Bad"
-        ],
-        [
-          "James",
-          "21",
-          "66",
-          "163",
-          "14",
-          "M",
-          "Good"
-        ],
-        [
-          "Kevin",
-          "30",
-          "95",
-          "190",
-          "1",
-          "M",
-          "Bad"
-        ],
-        [
-          "Lea",
-          "13",
-          "72",
-          "172",
-          "11",
-          "F",
-          "Good"
-        ],
-        [
-          "Marcus",
-          "8",
-          "83",
-          "185",
-          "3",
-          "F",
-          "Bad"
-        ],
-        [
-          "Nigel",
-          "12",
-          "115",
-          "192",
-          "15",
-          "M",
-          "Good"
-        ]
-      ]
-    },
-    {
-      "id": 2,
       "fileName": "review.csv",
+      "headers": [
+        "review",
+        "grade"
+      ],
       "content": [
-        [
-          "review",
-          "grade"
-        ],
-        [
-          "yes",
-          "81"
-        ],
-        [
-          "yes",
-          "83"
-        ],
-        [
-          "no",
-          "91"
-        ],
-        [
-          "no",
-          "57"
-        ],
-        [
-          "yes",
-          "87"
-        ],
-        [
-          "no",
-          "97"
-        ],
-        [
-          "no",
-          "87"
-        ],
-        [
-          "no",
-          "85"
-        ],
-        [
-          "yes",
-          "92"
-        ],
-        [
-          "yes",
-          "73"
-        ],
-        [
-          "yes",
-          "64"
-        ],
-        [
-          "no",
-          "82"
-        ],
-        [
-          "yes",
-          "64"
-        ],
-        [
-          "no",
-          "84"
-        ],
-        [
-          "no",
-          "60"
-        ],
-        [
-          "yes",
-          "57"
-        ],
-        [
-          "no",
-          "78"
-        ],
-        [
-          "yes",
-          "63"
-        ],
-        [
-          "yes",
-          "93"
-        ],
-        [
-          "no",
-          "79"
-        ],
-        [
-          "yes",
-          "78"
-        ]
+        {
+          "review": "yes",
+          "grade": 81
+        },
+        {
+          "review": "yes",
+          "grade": 83
+        },
+        {
+          "review": "no",
+          "grade": 91
+        },
+        {
+          "review": "no",
+          "grade": 57
+        },
+        {
+          "review": "yes",
+          "grade": 87
+        },
+        {
+          "review": "no",
+          "grade": 97
+        },
+        {
+          "review": "no",
+          "grade": 87
+        },
+        {
+          "review": "no",
+          "grade": 85
+        },
+        {
+          "review": "yes",
+          "grade": 92
+        },
+        {
+          "review": "yes",
+          "grade": 73
+        },
+        {
+          "review": "yes",
+          "grade": 64
+        },
+        {
+          "review": "no",
+          "grade": 82
+        },
+        {
+          "review": "yes",
+          "grade": 64
+        },
+        {
+          "review": "no",
+          "grade": 84
+        },
+        {
+          "review": "no",
+          "grade": 60
+        },
+        {
+          "review": "yes",
+          "grade": 57
+        },
+        {
+          "review": "no",
+          "grade": 78
+        },
+        {
+          "review": "yes",
+          "grade": 63
+        },
+        {
+          "review": "yes",
+          "grade": 93
+        },
+        {
+          "review": "no",
+          "grade": 79
+        },
+        {
+          "review": "yes",
+          "grade": 78
+        }
       ]
     },
     {
       "id": 3,
-      "fileName": "ads.csv",
+      "fileName": "beforeafter.csv",
+      "headers": [
+        "student",
+        "before",
+        "after"
+      ],
       "content": [
-        [
-          "Day",
-          "Section",
-          "NumOfAds"
-        ],
-        [
-          "Monday",
-          "News",
-          "11"
-        ],
-        [
-          "Monday",
-          "News",
-          "8"
-        ],
-        [
-          "Monday",
-          "News",
-          "6"
-        ],
-        [
-          "Monday",
-          "News",
-          "8"
-        ],
-        [
-          "Tuesday",
-          "News",
-          "9"
-        ],
-        [
-          "Tuesday",
-          "News",
-          "10"
-        ],
-        [
-          "Tuesday",
-          "News",
-          "10"
-        ],
-        [
-          "Tuesday",
-          "News",
-          "12"
-        ],
-        [
-          "Wednesday",
-          "News",
-          "8"
-        ],
-        [
-          "Wednesday",
-          "News",
-          "9"
-        ],
-        [
-          "Wednesday",
-          "News",
-          "9"
-        ],
-        [
-          "Wednesday",
-          "News",
-          "11"
-        ],
-        [
-          "Thrusday",
-          "News",
-          "4"
-        ],
-        [
-          "Thrusday",
-          "News",
-          "5"
-        ],
-        [
-          "Thrusday",
-          "News",
-          "3"
-        ],
-        [
-          "Thrusday",
-          "News",
-          "5"
-        ],
-        [
-          "Friday",
-          "News",
-          "13"
-        ],
-        [
-          "Friday",
-          "News",
-          "12"
-        ],
-        [
-          "Friday",
-          "News",
-          "11"
-        ],
-        [
-          "Friday",
-          "News",
-          "14"
-        ],
-        [
-          "Monday",
-          "Business",
-          "10"
-        ],
-        [
-          "Monday",
-          "Business",
-          "12"
-        ],
-        [
-          "Monday",
-          "Business",
-          "13"
-        ],
-        [
-          "Monday",
-          "Business",
-          "11"
-        ],
-        [
-          "Tuesday",
-          "Business",
-          "7"
-        ],
-        [
-          "Tuesday",
-          "Business",
-          "8"
-        ],
-        [
-          "Tuesday",
-          "Business",
-          "11"
-        ],
-        [
-          "Tuesday",
-          "Business",
-          "9"
-        ],
-        [
-          "Wednesday",
-          "Business",
-          "7"
-        ],
-        [
-          "Wednesday",
-          "Business",
-          "8"
-        ],
-        [
-          "Wednesday",
-          "Business",
-          "10"
-        ],
-        [
-          "Wednesday",
-          "Business",
-          "9"
-        ],
-        [
-          "Thrusday",
-          "Business",
-          "9"
-        ],
-        [
-          "Thrusday",
-          "Business",
-          "6"
-        ],
-        [
-          "Thrusday",
-          "Business",
-          "8"
-        ],
-        [
-          "Thrusday",
-          "Business",
-          "8"
-        ],
-        [
-          "Friday",
-          "Business",
-          "10"
-        ],
-        [
-          "Friday",
-          "Business",
-          "9"
-        ],
-        [
-          "Friday",
-          "Business",
-          "9"
-        ],
-        [
-          "Friday",
-          "Business",
-          "8"
-        ],
-        [
-          "Monday",
-          "Sports",
-          "4"
-        ],
-        [
-          "Monday",
-          "Sports",
-          "3"
-        ],
-        [
-          "Monday",
-          "Sports",
-          "5"
-        ],
-        [
-          "Monday",
-          "Sports",
-          "6"
-        ],
-        [
-          "Tuesday",
-          "Sports",
-          "5"
-        ],
-        [
-          "Tuesday",
-          "Sports",
-          "8"
-        ],
-        [
-          "Tuesday",
-          "Sports",
-          "6"
-        ],
-        [
-          "Tuesday",
-          "Sports",
-          "7"
-        ],
-        [
-          "Wednesday",
-          "Sports",
-          "5"
-        ],
-        [
-          "Wednesday",
-          "Sports",
-          "9"
-        ],
-        [
-          "Wednesday",
-          "Sports",
-          "7"
-        ],
-        [
-          "Wednesday",
-          "Sports",
-          "6"
-        ],
-        [
-          "Thrusday",
-          "Sports",
-          "7"
-        ],
-        [
-          "Thrusday",
-          "Sports",
-          "6"
-        ],
-        [
-          "Thrusday",
-          "Sports",
-          "6"
-        ],
-        [
-          "Thrusday",
-          "Sports",
-          "5"
-        ],
-        [
-          "Friday",
-          "Sports",
-          "12"
-        ],
-        [
-          "Friday",
-          "Sports",
-          "10"
-        ],
-        [
-          "Friday",
-          "Sports",
-          "11"
-        ],
-        [
-          "Friday",
-          "Sports",
-          "12"
-        ]
+        {
+          "student": 1,
+          "before": 69,
+          "after": 71
+        },
+        {
+          "student": 2,
+          "before": 99,
+          "after": 96
+        },
+        {
+          "student": 3,
+          "before": 69,
+          "after": 76
+        },
+        {
+          "student": 4,
+          "before": 72,
+          "after": 89
+        },
+        {
+          "student": 5,
+          "before": 55,
+          "after": 81
+        },
+        {
+          "student": 6,
+          "before": 61,
+          "after": 100
+        },
+        {
+          "student": 7,
+          "before": 95,
+          "after": 71
+        },
+        {
+          "student": 8,
+          "before": 98,
+          "after": 85
+        },
+        {
+          "student": 9,
+          "before": 70,
+          "after": 61
+        },
+        {
+          "student": 10,
+          "before": 85,
+          "after": 79
+        },
+        {
+          "student": 11,
+          "before": 78,
+          "after": 87
+        },
+        {
+          "student": 12,
+          "before": 61,
+          "after": 74
+        },
+        {
+          "student": 13,
+          "before": 84,
+          "after": 74
+        },
+        {
+          "student": 14,
+          "before": 84,
+          "after": 66
+        },
+        {
+          "student": 15,
+          "before": 97,
+          "after": 58
+        }
       ]
     },
     {
       "id": 4,
-      "fileName": "pizzaparties.csv",
+      "fileName": "friends.csv",
+      "headers": [
+        "friend",
+        "max_temp",
+        "weight",
+        "height",
+        "years",
+        "gender",
+        "company"
+      ],
       "content": [
-        [
-          "HonorRoll",
-          "PizzaParty"
-        ],
-        [
-          "no",
-          "yes"
-        ],
-        [
-          "yes",
-          "yes"
-        ],
-        [
-          "yes",
-          "yes"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "no",
-          "yes"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "yes",
-          "yes"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "no",
-          "no"
-        ],
-        [
-          "no",
-          "no"
-        ],
-        [
-          "yes",
-          "yes"
-        ],
-        [
-          "yes",
-          "yes"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "yes",
-          "yes"
-        ],
-        [
-          "no",
-          "no"
-        ],
-        [
-          "no",
-          "no"
-        ],
-        [
-          "yes",
-          "yes"
-        ],
-        [
-          "yes",
-          "no"
-        ],
-        [
-          "no",
-          "no"
-        ],
-        [
-          "no",
-          "yes"
-        ],
-        [
-          "no",
-          "no"
-        ]
+        {
+          "friend": "Andrew",
+          "max_temp": 25,
+          "weight": 77,
+          "height": 175,
+          "years": 10,
+          "gender": "M",
+          "company": "Good"
+        },
+        {
+          "friend": "Bernhard",
+          "max_temp": 31,
+          "weight": 110,
+          "height": 195,
+          "years": 12,
+          "gender": "M",
+          "company": "Good"
+        },
+        {
+          "friend": "Carolina",
+          "max_temp": 15,
+          "weight": 70,
+          "height": 172,
+          "years": 2,
+          "gender": "F",
+          "company": "Bad"
+        },
+        {
+          "friend": "Dennis",
+          "max_temp": 20,
+          "weight": 85,
+          "height": 180,
+          "years": 16,
+          "gender": "M",
+          "company": "Good"
+        },
+        {
+          "friend": "Eve",
+          "max_temp": 10,
+          "weight": 65,
+          "height": 168,
+          "years": 0,
+          "gender": "F",
+          "company": "Bad"
+        },
+        {
+          "friend": "Fred",
+          "max_temp": 12,
+          "weight": 75,
+          "height": 173,
+          "years": 6,
+          "gender": "M",
+          "company": "Good"
+        },
+        {
+          "friend": "Gwyneth",
+          "max_temp": 16,
+          "weight": 75,
+          "height": 180,
+          "years": 3,
+          "gender": "F",
+          "company": "Bad"
+        },
+        {
+          "friend": "Hayden",
+          "max_temp": 26,
+          "weight": 63,
+          "height": 165,
+          "years": 2,
+          "gender": "F",
+          "company": "Bad"
+        },
+        {
+          "friend": "Irene",
+          "max_temp": 15,
+          "weight": 55,
+          "height": 158,
+          "years": 5,
+          "gender": "F",
+          "company": "Bad"
+        },
+        {
+          "friend": "James",
+          "max_temp": 21,
+          "weight": 66,
+          "height": 163,
+          "years": 14,
+          "gender": "M",
+          "company": "Good"
+        },
+        {
+          "friend": "Kevin",
+          "max_temp": 30,
+          "weight": 95,
+          "height": 190,
+          "years": 1,
+          "gender": "M",
+          "company": "Bad"
+        },
+        {
+          "friend": "Lea",
+          "max_temp": 13,
+          "weight": 72,
+          "height": 172,
+          "years": 11,
+          "gender": "F",
+          "company": "Good"
+        },
+        {
+          "friend": "Marcus",
+          "max_temp": 8,
+          "weight": 83,
+          "height": 185,
+          "years": 3,
+          "gender": "F",
+          "company": "Bad"
+        },
+        {
+          "friend": "Nigel",
+          "max_temp": 12,
+          "weight": 115,
+          "height": 192,
+          "years": 15,
+          "gender": "M",
+          "company": "Good"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fileName": "LungCapData.csv",
+      "headers": [
+        "lungcap",
+        "age",
+        "height",
+        "smoke",
+        "gender",
+        "caesarean"
+      ],
+      "content": [
+        {
+          "lungcap": 6.475,
+          "age": 6,
+          "height": 62.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.125,
+          "age": 18,
+          "height": 74.7,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.55,
+          "age": 16,
+          "height": 69.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.125,
+          "age": 14,
+          "height": 71,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.8,
+          "age": 5,
+          "height": 56.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.225,
+          "age": 11,
+          "height": 58.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.95,
+          "age": 8,
+          "height": 63.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.325,
+          "age": 11,
+          "height": 70.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.875,
+          "age": 15,
+          "height": 70.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.8,
+          "age": 11,
+          "height": 59.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.5,
+          "age": 19,
+          "height": 76.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.925,
+          "age": 17,
+          "height": 71.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.525,
+          "age": 12,
+          "height": 57.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6,
+          "age": 10,
+          "height": 61.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.825,
+          "age": 10,
+          "height": 61.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.525,
+          "age": 13,
+          "height": 63.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.875,
+          "age": 15,
+          "height": 59.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.05,
+          "age": 8,
+          "height": 56.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.025,
+          "age": 11,
+          "height": 61.2,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.525,
+          "age": 14,
+          "height": 70.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.975,
+          "age": 6,
+          "height": 57.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.325,
+          "age": 8,
+          "height": 59.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.025,
+          "age": 16,
+          "height": 72.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.725,
+          "age": 11,
+          "height": 68,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.375,
+          "age": 11,
+          "height": 65.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.35,
+          "age": 12,
+          "height": 61.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.75,
+          "age": 12,
+          "height": 60.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.025,
+          "age": 9,
+          "height": 65.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.125,
+          "age": 4,
+          "height": 48.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.475,
+          "age": 18,
+          "height": 72,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.65,
+          "age": 4,
+          "height": 53.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.725,
+          "age": 13,
+          "height": 64.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.6,
+          "age": 13,
+          "height": 69.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.025,
+          "age": 13,
+          "height": 65.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.65,
+          "age": 12,
+          "height": 67.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.825,
+          "age": 10,
+          "height": 65.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.2,
+          "age": 6,
+          "height": 52.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.775,
+          "age": 9,
+          "height": 63.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.325,
+          "age": 11,
+          "height": 64.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.325,
+          "age": 17,
+          "height": 77.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.225,
+          "age": 14,
+          "height": 65.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.725,
+          "age": 17,
+          "height": 72.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.875,
+          "age": 8,
+          "height": 58.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.275,
+          "age": 12,
+          "height": 67.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.575,
+          "age": 6,
+          "height": 49.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.7,
+          "age": 11,
+          "height": 62.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.65,
+          "age": 11,
+          "height": 61.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8,
+          "age": 12,
+          "height": 64.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.95,
+          "age": 17,
+          "height": 74.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.35,
+          "age": 7,
+          "height": 61.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.625,
+          "age": 15,
+          "height": 66.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.425,
+          "age": 15,
+          "height": 74.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.4,
+          "age": 11,
+          "height": 65.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.875,
+          "age": 10,
+          "height": 61.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.225,
+          "age": 18,
+          "height": 79.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.25,
+          "age": 6,
+          "height": 52.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.2,
+          "age": 13,
+          "height": 65.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.4,
+          "age": 19,
+          "height": 79.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.625,
+          "age": 9,
+          "height": 56.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.825,
+          "age": 12,
+          "height": 65.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.7,
+          "age": 12,
+          "height": 57.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.2,
+          "age": 14,
+          "height": 68.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.95,
+          "age": 9,
+          "height": 61.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.85,
+          "age": 13,
+          "height": 58.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.45,
+          "age": 13,
+          "height": 65.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.35,
+          "age": 13,
+          "height": 67.5,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.375,
+          "age": 11,
+          "height": 59.3,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.375,
+          "age": 11,
+          "height": 63,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.6,
+          "age": 11,
+          "height": 64.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.9,
+          "age": 12,
+          "height": 68,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.5,
+          "age": 14,
+          "height": 61.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.7,
+          "age": 11,
+          "height": 72.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.125,
+          "age": 11,
+          "height": 51.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.825,
+          "age": 13,
+          "height": 71,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.25,
+          "age": 13,
+          "height": 61.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.975,
+          "age": 12,
+          "height": 62.6,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.5,
+          "age": 14,
+          "height": 66.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.875,
+          "age": 9,
+          "height": 59,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.05,
+          "age": 17,
+          "height": 70.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.8,
+          "age": 11,
+          "height": 69.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.35,
+          "age": 12,
+          "height": 63,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.9,
+          "age": 16,
+          "height": 69.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.05,
+          "age": 17,
+          "height": 72.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.575,
+          "age": 19,
+          "height": 78.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.2,
+          "age": 14,
+          "height": 61.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.125,
+          "age": 12,
+          "height": 63.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 13.875,
+          "age": 19,
+          "height": 78.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.75,
+          "age": 11,
+          "height": 63.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.475,
+          "age": 15,
+          "height": 63,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.575,
+          "age": 19,
+          "height": 75.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.95,
+          "age": 9,
+          "height": 63.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.2,
+          "age": 14,
+          "height": 69.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.75,
+          "age": 13,
+          "height": 72.8,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.65,
+          "age": 14,
+          "height": 65.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.75,
+          "age": 19,
+          "height": 78,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.825,
+          "age": 18,
+          "height": 75.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.55,
+          "age": 16,
+          "height": 71.1,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.95,
+          "age": 7,
+          "height": 64.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.675,
+          "age": 16,
+          "height": 74.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.1,
+          "age": 10,
+          "height": 57,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.025,
+          "age": 13,
+          "height": 66.2,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.225,
+          "age": 14,
+          "height": 66.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.45,
+          "age": 13,
+          "height": 58.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.725,
+          "age": 16,
+          "height": 75.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.95,
+          "age": 16,
+          "height": 67.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.425,
+          "age": 5,
+          "height": 51.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.875,
+          "age": 16,
+          "height": 75.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.625,
+          "age": 12,
+          "height": 64.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.45,
+          "age": 7,
+          "height": 63.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.1,
+          "age": 7,
+          "height": 52.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.425,
+          "age": 15,
+          "height": 70.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.15,
+          "age": 18,
+          "height": 76.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.85,
+          "age": 8,
+          "height": 49.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.875,
+          "age": 3,
+          "height": 55.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.125,
+          "age": 15,
+          "height": 73.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.975,
+          "age": 15,
+          "height": 67.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 3.75,
+          "age": 7,
+          "height": 50.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.275,
+          "age": 18,
+          "height": 71,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.675,
+          "age": 8,
+          "height": 54.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.775,
+          "age": 17,
+          "height": 76.9,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.55,
+          "age": 16,
+          "height": 67.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.45,
+          "age": 12,
+          "height": 61,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 13.2,
+          "age": 17,
+          "height": 78.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.55,
+          "age": 16,
+          "height": 75.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.95,
+          "age": 19,
+          "height": 79.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.825,
+          "age": 12,
+          "height": 67.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.55,
+          "age": 17,
+          "height": 71.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.7,
+          "age": 19,
+          "height": 76.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 3.65,
+          "age": 12,
+          "height": 56.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.65,
+          "age": 12,
+          "height": 60,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.425,
+          "age": 15,
+          "height": 67.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.925,
+          "age": 17,
+          "height": 75.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.45,
+          "age": 13,
+          "height": 61.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.6,
+          "age": 12,
+          "height": 60.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.65,
+          "age": 16,
+          "height": 74.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.725,
+          "age": 13,
+          "height": 65.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.55,
+          "age": 15,
+          "height": 69.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.175,
+          "age": 15,
+          "height": 71.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.45,
+          "age": 14,
+          "height": 61.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.475,
+          "age": 13,
+          "height": 67.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.975,
+          "age": 6,
+          "height": 58.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.9,
+          "age": 18,
+          "height": 70.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.2,
+          "age": 18,
+          "height": 68.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.4,
+          "age": 18,
+          "height": 81.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.85,
+          "age": 9,
+          "height": 65.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.825,
+          "age": 17,
+          "height": 73.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.625,
+          "age": 14,
+          "height": 66.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.35,
+          "age": 14,
+          "height": 70.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.225,
+          "age": 14,
+          "height": 64,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 0.507,
+          "age": 3,
+          "height": 51.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.075,
+          "age": 11,
+          "height": 61.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.45,
+          "age": 8,
+          "height": 62.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.725,
+          "age": 9,
+          "height": 56.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.525,
+          "age": 8,
+          "height": 55.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.275,
+          "age": 16,
+          "height": 67.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.85,
+          "age": 7,
+          "height": 51.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.35,
+          "age": 11,
+          "height": 71.2,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.55,
+          "age": 5,
+          "height": 55.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.35,
+          "age": 16,
+          "height": 73.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.625,
+          "age": 11,
+          "height": 62.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.725,
+          "age": 16,
+          "height": 68.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.9,
+          "age": 10,
+          "height": 56.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.475,
+          "age": 12,
+          "height": 69.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.85,
+          "age": 19,
+          "height": 70.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.15,
+          "age": 7,
+          "height": 58.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.425,
+          "age": 8,
+          "height": 56.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.55,
+          "age": 13,
+          "height": 66.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.35,
+          "age": 17,
+          "height": 66.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.05,
+          "age": 9,
+          "height": 62.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.325,
+          "age": 8,
+          "height": 54.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.85,
+          "age": 15,
+          "height": 68.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.325,
+          "age": 6,
+          "height": 56.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.775,
+          "age": 14,
+          "height": 67.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.45,
+          "age": 10,
+          "height": 66.5,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.175,
+          "age": 17,
+          "height": 72.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.45,
+          "age": 15,
+          "height": 65.1,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.7,
+          "age": 10,
+          "height": 65.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.95,
+          "age": 16,
+          "height": 74.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.85,
+          "age": 17,
+          "height": 72.4,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.825,
+          "age": 17,
+          "height": 65.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.5,
+          "age": 13,
+          "height": 62.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.875,
+          "age": 17,
+          "height": 78.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.475,
+          "age": 15,
+          "height": 72.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.925,
+          "age": 16,
+          "height": 75.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.5,
+          "age": 18,
+          "height": 68.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.2,
+          "age": 10,
+          "height": 64.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.375,
+          "age": 16,
+          "height": 67.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.5,
+          "age": 8,
+          "height": 58.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.925,
+          "age": 14,
+          "height": 65.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 2.875,
+          "age": 4,
+          "height": 55.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.35,
+          "age": 17,
+          "height": 71.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.325,
+          "age": 15,
+          "height": 67.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.45,
+          "age": 10,
+          "height": 61.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.625,
+          "age": 13,
+          "height": 60.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.225,
+          "age": 16,
+          "height": 72.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.125,
+          "age": 17,
+          "height": 73.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 13.025,
+          "age": 19,
+          "height": 75.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.85,
+          "age": 11,
+          "height": 66,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 2.55,
+          "age": 8,
+          "height": 49.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.575,
+          "age": 12,
+          "height": 66.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.55,
+          "age": 13,
+          "height": 68.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.225,
+          "age": 16,
+          "height": 76.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.625,
+          "age": 15,
+          "height": 74,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10,
+          "age": 18,
+          "height": 73.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.9,
+          "age": 8,
+          "height": 55.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.85,
+          "age": 5,
+          "height": 55.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.025,
+          "age": 10,
+          "height": 60.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.95,
+          "age": 8,
+          "height": 58.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.475,
+          "age": 13,
+          "height": 66.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.4,
+          "age": 7,
+          "height": 60.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.225,
+          "age": 11,
+          "height": 63.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.775,
+          "age": 15,
+          "height": 75.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.15,
+          "age": 10,
+          "height": 62,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.4,
+          "age": 15,
+          "height": 66.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.25,
+          "age": 8,
+          "height": 59.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.85,
+          "age": 7,
+          "height": 58.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.125,
+          "age": 10,
+          "height": 55.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.925,
+          "age": 18,
+          "height": 77.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.35,
+          "age": 15,
+          "height": 61.9,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.475,
+          "age": 19,
+          "height": 76,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.575,
+          "age": 14,
+          "height": 59.7,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 1.175,
+          "age": 3,
+          "height": 51.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.95,
+          "age": 6,
+          "height": 47.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9,
+          "age": 12,
+          "height": 62,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.1,
+          "age": 14,
+          "height": 61.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.275,
+          "age": 8,
+          "height": 64.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.075,
+          "age": 15,
+          "height": 69.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.1,
+          "age": 5,
+          "height": 47.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.7,
+          "age": 3,
+          "height": 52.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.85,
+          "age": 11,
+          "height": 60.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.925,
+          "age": 11,
+          "height": 65.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.3,
+          "age": 13,
+          "height": 61.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.275,
+          "age": 18,
+          "height": 67.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.125,
+          "age": 19,
+          "height": 71.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.625,
+          "age": 15,
+          "height": 68.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.825,
+          "age": 18,
+          "height": 70.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.725,
+          "age": 8,
+          "height": 58.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.925,
+          "age": 11,
+          "height": 67.1,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.475,
+          "age": 17,
+          "height": 64.8,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.9,
+          "age": 14,
+          "height": 71.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.675,
+          "age": 12,
+          "height": 70.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.95,
+          "age": 14,
+          "height": 71.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.575,
+          "age": 8,
+          "height": 59.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.6,
+          "age": 12,
+          "height": 61.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.5,
+          "age": 11,
+          "height": 63.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.825,
+          "age": 6,
+          "height": 55.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8,
+          "age": 9,
+          "height": 66.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.475,
+          "age": 11,
+          "height": 60.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.7,
+          "age": 18,
+          "height": 74.2,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.125,
+          "age": 18,
+          "height": 71,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.225,
+          "age": 19,
+          "height": 74.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.275,
+          "age": 9,
+          "height": 63.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.5,
+          "age": 18,
+          "height": 80.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.625,
+          "age": 9,
+          "height": 60,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.3,
+          "age": 7,
+          "height": 57.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.6,
+          "age": 8,
+          "height": 58.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.05,
+          "age": 18,
+          "height": 72.6,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.025,
+          "age": 11,
+          "height": 65.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.95,
+          "age": 12,
+          "height": 68.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.4,
+          "age": 11,
+          "height": 63.3,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.85,
+          "age": 14,
+          "height": 65.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.875,
+          "age": 14,
+          "height": 71.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.85,
+          "age": 5,
+          "height": 53.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.175,
+          "age": 12,
+          "height": 56.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.175,
+          "age": 19,
+          "height": 69.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.225,
+          "age": 9,
+          "height": 53.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.975,
+          "age": 17,
+          "height": 70.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.35,
+          "age": 10,
+          "height": 61,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.975,
+          "age": 9,
+          "height": 61.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.775,
+          "age": 9,
+          "height": 59.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.1,
+          "age": 10,
+          "height": 57.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.8,
+          "age": 14,
+          "height": 70.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.7,
+          "age": 14,
+          "height": 73.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.975,
+          "age": 12,
+          "height": 58.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.375,
+          "age": 17,
+          "height": 69.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.4,
+          "age": 10,
+          "height": 59.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.8,
+          "age": 12,
+          "height": 65.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.7,
+          "age": 13,
+          "height": 66,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.25,
+          "age": 11,
+          "height": 64.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.725,
+          "age": 12,
+          "height": 71.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.5,
+          "age": 17,
+          "height": 72.5,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.975,
+          "age": 14,
+          "height": 71.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.7,
+          "age": 15,
+          "height": 64.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.775,
+          "age": 8,
+          "height": 55.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.325,
+          "age": 13,
+          "height": 69.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.2,
+          "age": 11,
+          "height": 66.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8,
+          "age": 10,
+          "height": 63.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.025,
+          "age": 6,
+          "height": 47.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.125,
+          "age": 10,
+          "height": 64.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.55,
+          "age": 18,
+          "height": 70.8,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.05,
+          "age": 6,
+          "height": 56.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.45,
+          "age": 18,
+          "height": 72.9,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.475,
+          "age": 3,
+          "height": 52.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.4,
+          "age": 15,
+          "height": 74.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.15,
+          "age": 13,
+          "height": 63.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.2,
+          "age": 19,
+          "height": 72.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.725,
+          "age": 11,
+          "height": 59.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.725,
+          "age": 13,
+          "height": 66.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 2.625,
+          "age": 5,
+          "height": 49,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.4,
+          "age": 8,
+          "height": 62.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.2,
+          "age": 18,
+          "height": 69,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.85,
+          "age": 13,
+          "height": 63.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.55,
+          "age": 10,
+          "height": 59.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.525,
+          "age": 18,
+          "height": 71.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.625,
+          "age": 12,
+          "height": 59.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.55,
+          "age": 9,
+          "height": 58.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.475,
+          "age": 15,
+          "height": 69.3,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.925,
+          "age": 14,
+          "height": 69.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.075,
+          "age": 8,
+          "height": 58.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.35,
+          "age": 19,
+          "height": 68.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.475,
+          "age": 7,
+          "height": 55.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.675,
+          "age": 13,
+          "height": 71.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.775,
+          "age": 14,
+          "height": 67.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 13.1,
+          "age": 19,
+          "height": 76.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.5,
+          "age": 9,
+          "height": 59.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.3,
+          "age": 12,
+          "height": 67.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.9,
+          "age": 10,
+          "height": 58,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.025,
+          "age": 3,
+          "height": 47,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.775,
+          "age": 13,
+          "height": 63.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.975,
+          "age": 16,
+          "height": 79.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.625,
+          "age": 13,
+          "height": 68,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.225,
+          "age": 10,
+          "height": 59.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.9,
+          "age": 15,
+          "height": 64.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.15,
+          "age": 11,
+          "height": 62.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.2,
+          "age": 11,
+          "height": 60.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.075,
+          "age": 19,
+          "height": 70.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.325,
+          "age": 15,
+          "height": 69,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.625,
+          "age": 11,
+          "height": 53.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.625,
+          "age": 19,
+          "height": 73.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.5,
+          "age": 8,
+          "height": 60,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.15,
+          "age": 7,
+          "height": 53.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6,
+          "age": 10,
+          "height": 59.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.05,
+          "age": 13,
+          "height": 67.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.75,
+          "age": 14,
+          "height": 70.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.375,
+          "age": 14,
+          "height": 69.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.25,
+          "age": 9,
+          "height": 55.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.875,
+          "age": 11,
+          "height": 66.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.9,
+          "age": 13,
+          "height": 71.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.8,
+          "age": 15,
+          "height": 73.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.25,
+          "age": 18,
+          "height": 72.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.425,
+          "age": 15,
+          "height": 62.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.325,
+          "age": 13,
+          "height": 59.9,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.55,
+          "age": 9,
+          "height": 58.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.625,
+          "age": 8,
+          "height": 46.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.05,
+          "age": 7,
+          "height": 54.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.1,
+          "age": 17,
+          "height": 74.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.725,
+          "age": 11,
+          "height": 59.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.025,
+          "age": 12,
+          "height": 55,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.425,
+          "age": 9,
+          "height": 51,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.475,
+          "age": 14,
+          "height": 62.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.65,
+          "age": 8,
+          "height": 53.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.675,
+          "age": 16,
+          "height": 72.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.6,
+          "age": 17,
+          "height": 74.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.725,
+          "age": 9,
+          "height": 59.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.575,
+          "age": 12,
+          "height": 61.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.75,
+          "age": 19,
+          "height": 69.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.7,
+          "age": 17,
+          "height": 71.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.325,
+          "age": 15,
+          "height": 63.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.65,
+          "age": 12,
+          "height": 58.9,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 3.675,
+          "age": 7,
+          "height": 56.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.975,
+          "age": 8,
+          "height": 56.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.05,
+          "age": 15,
+          "height": 70.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.2,
+          "age": 18,
+          "height": 73.5,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.275,
+          "age": 11,
+          "height": 60.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.05,
+          "age": 10,
+          "height": 58.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.225,
+          "age": 9,
+          "height": 63.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.3,
+          "age": 11,
+          "height": 64.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.975,
+          "age": 16,
+          "height": 69.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.65,
+          "age": 16,
+          "height": 74.3,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.65,
+          "age": 18,
+          "height": 73.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.075,
+          "age": 16,
+          "height": 68.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.7,
+          "age": 10,
+          "height": 62.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.925,
+          "age": 13,
+          "height": 62.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.725,
+          "age": 16,
+          "height": 77.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 14.375,
+          "age": 18,
+          "height": 80.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.175,
+          "age": 9,
+          "height": 63.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.825,
+          "age": 13,
+          "height": 62,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.625,
+          "age": 11,
+          "height": 70.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.9,
+          "age": 5,
+          "height": 60.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.2,
+          "age": 6,
+          "height": 56.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.85,
+          "age": 12,
+          "height": 62.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.375,
+          "age": 9,
+          "height": 59.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.775,
+          "age": 15,
+          "height": 64.7,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8,
+          "age": 13,
+          "height": 69.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.075,
+          "age": 16,
+          "height": 68.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.6,
+          "age": 18,
+          "height": 70,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.15,
+          "age": 11,
+          "height": 59.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.475,
+          "age": 13,
+          "height": 66.3,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.375,
+          "age": 7,
+          "height": 56.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.4,
+          "age": 4,
+          "height": 55.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.525,
+          "age": 13,
+          "height": 61.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.325,
+          "age": 16,
+          "height": 71.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.65,
+          "age": 17,
+          "height": 73.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.725,
+          "age": 10,
+          "height": 60.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.775,
+          "age": 11,
+          "height": 65,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.7,
+          "age": 7,
+          "height": 56.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.825,
+          "age": 11,
+          "height": 61.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.5,
+          "age": 16,
+          "height": 70.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.725,
+          "age": 13,
+          "height": 69,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.475,
+          "age": 8,
+          "height": 53.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2,
+          "age": 3,
+          "height": 51,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.325,
+          "age": 12,
+          "height": 60.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.425,
+          "age": 15,
+          "height": 69.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 1.9,
+          "age": 8,
+          "height": 48.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 3.225,
+          "age": 4,
+          "height": 52.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.775,
+          "age": 13,
+          "height": 68.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.65,
+          "age": 7,
+          "height": 52.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.15,
+          "age": 15,
+          "height": 74,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.1,
+          "age": 15,
+          "height": 74.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.5,
+          "age": 18,
+          "height": 69.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.65,
+          "age": 7,
+          "height": 57.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.675,
+          "age": 13,
+          "height": 68.8,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.275,
+          "age": 18,
+          "height": 70.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11,
+          "age": 19,
+          "height": 75.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.125,
+          "age": 10,
+          "height": 66.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.175,
+          "age": 6,
+          "height": 56.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.45,
+          "age": 13,
+          "height": 63.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.1,
+          "age": 14,
+          "height": 68.4,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.875,
+          "age": 15,
+          "height": 71.6,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.25,
+          "age": 5,
+          "height": 57.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.025,
+          "age": 12,
+          "height": 64.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.225,
+          "age": 17,
+          "height": 76.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.95,
+          "age": 8,
+          "height": 59.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.8,
+          "age": 12,
+          "height": 73.3,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.55,
+          "age": 12,
+          "height": 68.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.875,
+          "age": 12,
+          "height": 61.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.425,
+          "age": 7,
+          "height": 61.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 12.275,
+          "age": 19,
+          "height": 75.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.225,
+          "age": 17,
+          "height": 75.8,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.45,
+          "age": 16,
+          "height": 68,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.025,
+          "age": 6,
+          "height": 62.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.5,
+          "age": 12,
+          "height": 61.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.9,
+          "age": 6,
+          "height": 56.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.05,
+          "age": 6,
+          "height": 59.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.45,
+          "age": 14,
+          "height": 69.9,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.3,
+          "age": 15,
+          "height": 73.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.875,
+          "age": 7,
+          "height": 48.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.425,
+          "age": 14,
+          "height": 67.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.5,
+          "age": 16,
+          "height": 68.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.925,
+          "age": 11,
+          "height": 62.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.25,
+          "age": 9,
+          "height": 57.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.75,
+          "age": 19,
+          "height": 71.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.8,
+          "age": 17,
+          "height": 71.1,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.3,
+          "age": 15,
+          "height": 68.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.7,
+          "age": 13,
+          "height": 67.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.15,
+          "age": 5,
+          "height": 55.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.3,
+          "age": 11,
+          "height": 59,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.85,
+          "age": 11,
+          "height": 69.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.325,
+          "age": 10,
+          "height": 57.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.925,
+          "age": 13,
+          "height": 63.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.35,
+          "age": 10,
+          "height": 58.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.425,
+          "age": 9,
+          "height": 57.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 13.075,
+          "age": 15,
+          "height": 79.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.45,
+          "age": 13,
+          "height": 75.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.525,
+          "age": 17,
+          "height": 73.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.925,
+          "age": 5,
+          "height": 48,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.825,
+          "age": 14,
+          "height": 62.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.575,
+          "age": 10,
+          "height": 63.2,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.975,
+          "age": 13,
+          "height": 67,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.7,
+          "age": 8,
+          "height": 63,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.6,
+          "age": 17,
+          "height": 68.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.975,
+          "age": 13,
+          "height": 64.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.125,
+          "age": 10,
+          "height": 60.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.6,
+          "age": 10,
+          "height": 67.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.7,
+          "age": 16,
+          "height": 70.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.175,
+          "age": 5,
+          "height": 52,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.1,
+          "age": 15,
+          "height": 67.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.275,
+          "age": 11,
+          "height": 72.2,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7,
+          "age": 12,
+          "height": 66.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.4,
+          "age": 19,
+          "height": 74,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.85,
+          "age": 10,
+          "height": 65.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 12.625,
+          "age": 18,
+          "height": 74,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.65,
+          "age": 13,
+          "height": 68.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.025,
+          "age": 15,
+          "height": 73.5,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.05,
+          "age": 16,
+          "height": 68.1,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.075,
+          "age": 17,
+          "height": 69.8,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.675,
+          "age": 14,
+          "height": 67.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.95,
+          "age": 9,
+          "height": 63.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.425,
+          "age": 16,
+          "height": 70.5,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.525,
+          "age": 16,
+          "height": 73.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.675,
+          "age": 16,
+          "height": 63.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.375,
+          "age": 16,
+          "height": 72.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.975,
+          "age": 12,
+          "height": 66.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.675,
+          "age": 16,
+          "height": 68.6,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.3,
+          "age": 7,
+          "height": 55.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.6,
+          "age": 18,
+          "height": 70,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.375,
+          "age": 4,
+          "height": 51.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.1,
+          "age": 19,
+          "height": 68.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.075,
+          "age": 11,
+          "height": 65.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.725,
+          "age": 15,
+          "height": 63.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.25,
+          "age": 8,
+          "height": 56,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 12.9,
+          "age": 15,
+          "height": 75.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.875,
+          "age": 5,
+          "height": 47.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.375,
+          "age": 6,
+          "height": 53.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 14.675,
+          "age": 19,
+          "height": 76.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9,
+          "age": 14,
+          "height": 66.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.35,
+          "age": 14,
+          "height": 64.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 2.725,
+          "age": 7,
+          "height": 50.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.125,
+          "age": 15,
+          "height": 65.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.9,
+          "age": 13,
+          "height": 64.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.1,
+          "age": 9,
+          "height": 56.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8,
+          "age": 13,
+          "height": 65.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.6,
+          "age": 18,
+          "height": 71.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.925,
+          "age": 5,
+          "height": 54.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.6,
+          "age": 14,
+          "height": 75.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.475,
+          "age": 7,
+          "height": 53.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.1,
+          "age": 18,
+          "height": 74.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 13.375,
+          "age": 17,
+          "height": 75.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.3,
+          "age": 14,
+          "height": 70.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.05,
+          "age": 13,
+          "height": 77.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.025,
+          "age": 11,
+          "height": 72.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.7,
+          "age": 12,
+          "height": 63.9,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.5,
+          "age": 18,
+          "height": 76.3,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.675,
+          "age": 3,
+          "height": 51.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.225,
+          "age": 14,
+          "height": 60.2,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.075,
+          "age": 9,
+          "height": 63.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.275,
+          "age": 10,
+          "height": 65.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.325,
+          "age": 9,
+          "height": 66.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.9,
+          "age": 15,
+          "height": 65.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.475,
+          "age": 14,
+          "height": 57.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.725,
+          "age": 16,
+          "height": 69.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.85,
+          "age": 12,
+          "height": 73.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.2,
+          "age": 9,
+          "height": 67.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.25,
+          "age": 13,
+          "height": 70.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.4,
+          "age": 15,
+          "height": 71.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.35,
+          "age": 11,
+          "height": 68.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.225,
+          "age": 6,
+          "height": 54.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9,
+          "age": 12,
+          "height": 65.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.625,
+          "age": 17,
+          "height": 74.2,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.05,
+          "age": 12,
+          "height": 61.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.075,
+          "age": 3,
+          "height": 53.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.5,
+          "age": 12,
+          "height": 65.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.775,
+          "age": 7,
+          "height": 59.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.175,
+          "age": 12,
+          "height": 65.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.075,
+          "age": 8,
+          "height": 61.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.9,
+          "age": 9,
+          "height": 60.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.925,
+          "age": 15,
+          "height": 67.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.55,
+          "age": 11,
+          "height": 62.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.325,
+          "age": 15,
+          "height": 73.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.95,
+          "age": 12,
+          "height": 71.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.8,
+          "age": 9,
+          "height": 63.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.85,
+          "age": 10,
+          "height": 60.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.925,
+          "age": 6,
+          "height": 62.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.875,
+          "age": 12,
+          "height": 71.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.175,
+          "age": 14,
+          "height": 73.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.575,
+          "age": 15,
+          "height": 61.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.425,
+          "age": 8,
+          "height": 69.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.775,
+          "age": 19,
+          "height": 71.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.625,
+          "age": 12,
+          "height": 65,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.65,
+          "age": 7,
+          "height": 60.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.3,
+          "age": 17,
+          "height": 71.9,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.775,
+          "age": 7,
+          "height": 51.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.025,
+          "age": 12,
+          "height": 65.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.025,
+          "age": 13,
+          "height": 69,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.575,
+          "age": 15,
+          "height": 65.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.85,
+          "age": 15,
+          "height": 68.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.725,
+          "age": 6,
+          "height": 56.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.1,
+          "age": 13,
+          "height": 64.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.575,
+          "age": 19,
+          "height": 75,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.575,
+          "age": 12,
+          "height": 60.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.9,
+          "age": 9,
+          "height": 62.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.275,
+          "age": 17,
+          "height": 73.6,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.2,
+          "age": 19,
+          "height": 71.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.55,
+          "age": 10,
+          "height": 57.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8,
+          "age": 12,
+          "height": 64.5,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.225,
+          "age": 14,
+          "height": 63.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.7,
+          "age": 12,
+          "height": 67.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.7,
+          "age": 18,
+          "height": 72.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 1.325,
+          "age": 5,
+          "height": 48.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 13.375,
+          "age": 19,
+          "height": 75.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 11.9,
+          "age": 17,
+          "height": 75.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.625,
+          "age": 13,
+          "height": 67.8,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.9,
+          "age": 9,
+          "height": 60.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.25,
+          "age": 7,
+          "height": 53.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.025,
+          "age": 16,
+          "height": 67.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 13.05,
+          "age": 16,
+          "height": 73,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.325,
+          "age": 17,
+          "height": 78.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.7,
+          "age": 17,
+          "height": 72.6,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.1,
+          "age": 18,
+          "height": 68.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.225,
+          "age": 7,
+          "height": 65.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.15,
+          "age": 7,
+          "height": 58,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8,
+          "age": 12,
+          "height": 64.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.05,
+          "age": 12,
+          "height": 60.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.45,
+          "age": 8,
+          "height": 55.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.35,
+          "age": 8,
+          "height": 55.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.825,
+          "age": 14,
+          "height": 71.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.925,
+          "age": 11,
+          "height": 65.6,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 12.375,
+          "age": 17,
+          "height": 71.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.475,
+          "age": 13,
+          "height": 69.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.35,
+          "age": 13,
+          "height": 67.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.15,
+          "age": 15,
+          "height": 65.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.25,
+          "age": 5,
+          "height": 53,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.025,
+          "age": 10,
+          "height": 61.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.7,
+          "age": 15,
+          "height": 63.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.825,
+          "age": 11,
+          "height": 62.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.45,
+          "age": 3,
+          "height": 45.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.925,
+          "age": 6,
+          "height": 56.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.825,
+          "age": 7,
+          "height": 51.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.975,
+          "age": 12,
+          "height": 65.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.275,
+          "age": 14,
+          "height": 61.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.8,
+          "age": 13,
+          "height": 73.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.8,
+          "age": 19,
+          "height": 74.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.375,
+          "age": 15,
+          "height": 73.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.675,
+          "age": 14,
+          "height": 66.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.65,
+          "age": 7,
+          "height": 51.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.575,
+          "age": 16,
+          "height": 67.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.875,
+          "age": 16,
+          "height": 66.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.825,
+          "age": 16,
+          "height": 78.9,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.825,
+          "age": 7,
+          "height": 55.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.25,
+          "age": 7,
+          "height": 51.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.75,
+          "age": 16,
+          "height": 73.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.55,
+          "age": 15,
+          "height": 63.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.6,
+          "age": 12,
+          "height": 68.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 3.7,
+          "age": 6,
+          "height": 52.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.275,
+          "age": 11,
+          "height": 61.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.125,
+          "age": 13,
+          "height": 63.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.675,
+          "age": 15,
+          "height": 76.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.65,
+          "age": 13,
+          "height": 62.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.175,
+          "age": 18,
+          "height": 69.4,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.25,
+          "age": 15,
+          "height": 69.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.675,
+          "age": 3,
+          "height": 54.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 10.625,
+          "age": 16,
+          "height": 74.2,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.2,
+          "age": 12,
+          "height": 66.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.675,
+          "age": 12,
+          "height": 64.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.725,
+          "age": 5,
+          "height": 50.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.35,
+          "age": 12,
+          "height": 66,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.225,
+          "age": 14,
+          "height": 75.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.925,
+          "age": 6,
+          "height": 49.2,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.35,
+          "age": 19,
+          "height": 66.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.7,
+          "age": 9,
+          "height": 57.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.425,
+          "age": 11,
+          "height": 63.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.775,
+          "age": 10,
+          "height": 66.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.65,
+          "age": 7,
+          "height": 56.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.2,
+          "age": 16,
+          "height": 68.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.025,
+          "age": 5,
+          "height": 52.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.175,
+          "age": 8,
+          "height": 54.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.05,
+          "age": 15,
+          "height": 65.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7,
+          "age": 10,
+          "height": 62.8,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 5.025,
+          "age": 10,
+          "height": 64.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.55,
+          "age": 13,
+          "height": 65,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 14.55,
+          "age": 18,
+          "height": 74.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.975,
+          "age": 12,
+          "height": 64,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.95,
+          "age": 13,
+          "height": 66,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.875,
+          "age": 19,
+          "height": 73.2,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.325,
+          "age": 10,
+          "height": 66.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 13.375,
+          "age": 19,
+          "height": 76.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.85,
+          "age": 16,
+          "height": 68.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.1,
+          "age": 13,
+          "height": 65,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.825,
+          "age": 13,
+          "height": 60.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.45,
+          "age": 14,
+          "height": 62.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.55,
+          "age": 9,
+          "height": 60.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.175,
+          "age": 8,
+          "height": 55.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.575,
+          "age": 10,
+          "height": 58.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.8,
+          "age": 13,
+          "height": 65.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.9,
+          "age": 12,
+          "height": 65.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 4.625,
+          "age": 6,
+          "height": 56.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.625,
+          "age": 14,
+          "height": 59.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.025,
+          "age": 18,
+          "height": 72,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.5,
+          "age": 14,
+          "height": 61.7,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.25,
+          "age": 3,
+          "height": 52,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.225,
+          "age": 16,
+          "height": 73.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.325,
+          "age": 10,
+          "height": 55.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.425,
+          "age": 12,
+          "height": 69.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.55,
+          "age": 10,
+          "height": 58,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.4,
+          "age": 16,
+          "height": 69.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.825,
+          "age": 10,
+          "height": 64.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.55,
+          "age": 8,
+          "height": 67.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.05,
+          "age": 10,
+          "height": 65.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 2.625,
+          "age": 5,
+          "height": 51.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.575,
+          "age": 8,
+          "height": 56.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.975,
+          "age": 8,
+          "height": 54.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 11.275,
+          "age": 18,
+          "height": 73,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.125,
+          "age": 6,
+          "height": 59.2,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.95,
+          "age": 10,
+          "height": 62.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.475,
+          "age": 14,
+          "height": 62.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.125,
+          "age": 17,
+          "height": 69.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 13.325,
+          "age": 18,
+          "height": 76.9,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.2,
+          "age": 14,
+          "height": 68.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.125,
+          "age": 14,
+          "height": 66.6,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 3.925,
+          "age": 10,
+          "height": 60.8,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.025,
+          "age": 13,
+          "height": 68.4,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.825,
+          "age": 18,
+          "height": 72.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.825,
+          "age": 11,
+          "height": 60,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.525,
+          "age": 15,
+          "height": 65.3,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.7,
+          "age": 19,
+          "height": 76.1,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.8,
+          "age": 16,
+          "height": 64.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.15,
+          "age": 16,
+          "height": 66,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.475,
+          "age": 15,
+          "height": 64,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.45,
+          "age": 8,
+          "height": 55.6,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.7,
+          "age": 7,
+          "height": 55.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.425,
+          "age": 12,
+          "height": 62,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.2,
+          "age": 10,
+          "height": 61.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.05,
+          "age": 13,
+          "height": 58.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 1.95,
+          "age": 7,
+          "height": 48.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.75,
+          "age": 13,
+          "height": 65.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.25,
+          "age": 14,
+          "height": 67.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.375,
+          "age": 9,
+          "height": 59.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.45,
+          "age": 16,
+          "height": 66.5,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.95,
+          "age": 15,
+          "height": 67.3,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.425,
+          "age": 13,
+          "height": 62.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.6,
+          "age": 10,
+          "height": 58.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 10.4,
+          "age": 14,
+          "height": 71.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.675,
+          "age": 12,
+          "height": 66,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 3.6,
+          "age": 7,
+          "height": 53.9,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 6.225,
+          "age": 15,
+          "height": 58.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.425,
+          "age": 19,
+          "height": 73.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.175,
+          "age": 15,
+          "height": 71.1,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.275,
+          "age": 12,
+          "height": 58.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 6.9,
+          "age": 15,
+          "height": 64.5,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.85,
+          "age": 10,
+          "height": 63.7,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 12.325,
+          "age": 17,
+          "height": 73.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 4.625,
+          "age": 5,
+          "height": 55.6,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 3.425,
+          "age": 3,
+          "height": 51,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 9.325,
+          "age": 14,
+          "height": 65.5,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.925,
+          "age": 16,
+          "height": 68.3,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 8.725,
+          "age": 19,
+          "height": 68.4,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.075,
+          "age": 11,
+          "height": 66.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 8.825,
+          "age": 16,
+          "height": 71.3,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.175,
+          "age": 17,
+          "height": 68.8,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 7.325,
+          "age": 9,
+          "height": 66.3,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 5.725,
+          "age": 9,
+          "height": 56,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.05,
+          "age": 18,
+          "height": 72,
+          "smoke": "yes",
+          "gender": "male",
+          "caesarean": "yes"
+        },
+        {
+          "lungcap": 3.85,
+          "age": 11,
+          "height": 60.5,
+          "smoke": "yes",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 9.825,
+          "age": 15,
+          "height": 64.9,
+          "smoke": "no",
+          "gender": "female",
+          "caesarean": "no"
+        },
+        {
+          "lungcap": 7.1,
+          "age": 10,
+          "height": 67.7,
+          "smoke": "no",
+          "gender": "male",
+          "caesarean": "no"
+        }
       ]
     }
   ]

@@ -9,6 +9,7 @@ import { useStoreActions, useStoreState } from 'easy-peasy';
 import { useEffect } from 'react';
 import Files from './Files';
 import { Route, Switch } from 'react-router-dom'
+import PlotLineChart from './Plots/PlotLineChart';
 function App() {
   const setFiles = useStoreActions((actions) => actions.setFiles);
   const files = useStoreState((state) => state.files);
@@ -30,6 +31,9 @@ function App() {
           />
         </Route>
         <Route path="/file/:id" component={DisplayData}/>
+        <Route path="/line_chart/file/:id" component={PlotLineChart}/>
+        
+
       </Switch>
       <Footer />     
     </div>

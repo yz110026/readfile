@@ -117,7 +117,7 @@ body {
   justify-content: flex-start;
   text-decoration: none;
 }
-.NavUl a {
+a {
   text-decoration: none;
 }
 .NavLi {
@@ -134,7 +134,7 @@ body {
 }
 
 
-.DisplayData, .Files {
+.DisplayData, .Files, .PlotLineChart {
   width: 100%;
   flex-grow: 1;
   padding: 1rem;
@@ -142,11 +142,19 @@ body {
   background-color: #fff;
 }
 
-td {
+td,th {
   border: 1px solid #000;
   padding: 0.25rem;
 }
-
+.Card_options {
+  float: right;
+  vertical-align: middle;
+}
+.btn-group {
+  float: left;
+  vertical-align: middle;
+  padding-right: 0.5rem;
+}
 .trashbutton {
   height: 30px;
   min-width: 30px;
@@ -169,5 +177,13 @@ li {
 .FileItem {
   cursor: pointer;
   color: #000;
+}
+
+.form-check {
+  padding-right: 0.25rem;
+  padding-left: 2rem;
+}
+#selectbox {
+  width: 100%;
 }
 

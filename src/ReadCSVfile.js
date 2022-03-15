@@ -2,6 +2,7 @@ import React from 'react';
 import { useCSVReader } from 'react-papaparse';
 import { useStoreActions, useStoreState } from 'easy-peasy';
 import { FaPlus } from "react-icons/fa";
+import { useState, useEffect } from 'react';
 
 
 const ReadCSVfile = () => {
@@ -12,7 +13,6 @@ const ReadCSVfile = () => {
     const setFileContent = useStoreActions((actions) => actions.setFileContent);
     const setFileName = useStoreActions((actions) => actions.setFileName);
     const saveFile = useStoreActions((actions) => actions.saveFile);
-    const ifLogin = useStoreState((state) => state.ifLogin);
     const { CSVReader } = useCSVReader();
 
     const handleAddFile = (fileName,fileContent) => {
@@ -25,6 +25,8 @@ const ReadCSVfile = () => {
     <CSVReader onUploadAccepted = {(results) => {
         console.log(results)
         setFileContent(results.data)
+        
+
       }} >
     {({
         getRootProps,
