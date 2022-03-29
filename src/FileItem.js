@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTrashAlt} from 'react-icons/fa' 
+import { FaTrashAlt} from 'react-icons/fa';
 import { GrDocumentCsv } from "react-icons/gr";
 import { useStoreActions } from 'easy-peasy';
 import { Link } from 'react-router-dom';
