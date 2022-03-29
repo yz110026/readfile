@@ -21,7 +21,7 @@ const FileItem = ({file}) => {
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="btnGroupDrop1">
                     <li><Link to={`/line_chart/file/${file.id}`} className='dropdown-item'>Line Chart</Link></li>
-                    <li><Link to={`/histogram/file/${file.id}`} className='dropdown-item'>Histogram</Link></li>
+                    <li><Link to={`/histogram/file/${file.id}`} className='dropdown-item'>More</Link></li>
                     </ul>
                 </div> 
                 <FaTrashAlt 
