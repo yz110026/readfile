@@ -26,7 +26,7 @@ export default createStore({
     setIfLogin: action((state, payload) => {
         state.ifLogin = payload
     }),
-
+    colorSets: ['#82ca9d','#8884d8','#83a6ed','#8dd1e1','#82ca9d','#a4de6c','#d0ed57','#ffc658'],
     saveFile: thunk(async (actions, newFile, helpers) => {
         const { files } = helpers.getState();
         try {

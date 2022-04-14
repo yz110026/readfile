@@ -1,9 +1,19 @@
-import React from 'react';
+import React from 'react'
 import { useParams, useHistory } from 'react-router-dom';
 import { useStoreState } from 'easy-peasy';
 import { useState, useEffect } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Label } from 'recharts';
-const PlotLineChart = () => {
+import {
+    ComposedChart,
+    Line,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    Legend,
+    Scatter,
+    ResponsiveContainer,
+  } from 'recharts';
+const PlotScatterChart = () => {
     const { id } = useParams();
     const history = useHistory();
     const getFileById = useStoreState((state) => state.getFileById);
@@ -14,25 +24,26 @@ const PlotLineChart = () => {
     const [yValue, setYValue] = useState([]);
     const [validX, setValidX] = useState([]);
     const [validY, setValidY] = useState([]);
+    
     useEffect(() => {
       content.map((row,index)=>{
         if (index === 0) {
           Object.entries(row).map(([key,value],index) => {
             if (typeof value === "string") {
-              return setValidX(validX => [...validX,header[index]])
+              
             } else if (typeof value === "number") {
-              return setValidY(validY => [...validY, header[index]]);
+              setValidY(validY => [...validY, header[index]])
+              setValidX(validX => [...validX,header[index]]) 
             }
           })
         } 
       })
     }, [content, header]);
-   
-    
+
     const handleClickRadio = (e) => {
       setXValue(e.target.value);
     }
-
+  
     const handleClickCheckBox = (e) => {
       if (e.target.checked) {
         setYValue([...yValue, e.target.value]);
@@ -41,7 +52,7 @@ const PlotLineChart = () => {
       }
     }
   return (
-    <main className='PlotLineChart'>
+    <main className='PlotScatterChart'>
       <div className='card'>
         <div className="card-header">
           Please select X and Y value(s) to make a plot:
@@ -76,43 +87,42 @@ const PlotLineChart = () => {
               </div>
             )
           })}
-         
         </div>
         </div>
         <div className="card-footer text-muted">
           {xValue.length && yValue.length ? `X value: ${xValue}, Y value(s): ${yValue}` : 'You should selet at lease one X value and one Y value'}
         </div>
       </div>
-      {content ? 
+      {!content ? history.push('/') :
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart
+            <ComposedChart
             width={500}
-            height={300}
+            height={400}
             data={content}
             margin={{
-              top: 5,
-              right: 30,
-              left: 20,
-              bottom: 5,
+                top: 20,
+                right: 80,
+                bottom: 20,
+                left: 20,
             }}
-          >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey={xValue} >
-          </XAxis>
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          {yValue.map((y,index) => {
-            return (
-            <Line type="monotone" dataKey={y} stroke={colorSets[index]} />
-            )
-          })}
-        </LineChart>
-      </ResponsiveContainer> : history.push('/')
-    }
-      
+            >
+            <CartesianGrid stroke="#f5f5f5" />
+            <Tooltip />
+            <Legend />
+
+            <XAxis dataKey={xValue} type="number" label={{ value: xValue, position: 'insideBottomRight', offset: 0 }} />
+            <YAxis />
+            {yValue.map((y,index) => {
+                return(
+                    <Scatter name={y} dataKey={y} fill={colorSets[index]} />
+                )
+            })}
+            </ComposedChart>
+        </ResponsiveContainer>
+      }
+
     </main>
-  );
+  )
 }
 
-export default PlotLineChart;
+export default PlotScatterChart

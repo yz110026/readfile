@@ -4,6 +4,7 @@ import { GrDocumentCsv } from "react-icons/gr";
 import { useStoreActions } from 'easy-peasy';
 import { Link } from 'react-router-dom';
 
+
 const FileItem = ({file}) => {
     const deleteFile = useStoreActions((actions) => actions.deleteFile);
     
@@ -21,7 +22,11 @@ const FileItem = ({file}) => {
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="btnGroupDrop1">
                     <li><Link to={`/line_chart/file/${file.id}`} className='dropdown-item'>Line Chart</Link></li>
-                    <li><Link to={`/histogram/file/${file.id}`} className='dropdown-item'>More</Link></li>
+                    <li><Link to={`/bar_chart/file/${file.id}`} className='dropdown-item'>Bar Chart</Link></li>
+                    <li><Link to={`/percent_area_chart/file/${file.id}`} className='dropdown-item'>Percent Area Chart</Link></li>
+                    <li><Link to={`/scatter_chart/file/${file.id}`} className='dropdown-item'>Scatter Chart</Link></li>
+                    <li><Link to={`/swarm_chart/file/${file.id}`} className='dropdown-item'>More Chart</Link></li>
+
                     </ul>
                 </div> 
                 <FaTrashAlt 

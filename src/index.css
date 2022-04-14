@@ -134,7 +134,8 @@ a {
 }
 
 
-.DisplayData, .Files, .PlotLineChart {
+.DisplayData, .Files, .PlotLineChart, .PlotScatterChart,
+.PlotRadialBarChart, .PlotBarChart {
   width: 100%;
   flex-grow: 1;
   padding: 1rem;

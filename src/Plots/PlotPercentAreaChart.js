@@ -2,18 +2,20 @@ import React from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import { useStoreState } from 'easy-peasy';
 import { useState, useEffect } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Label } from 'recharts';
-const PlotLineChart = () => {
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+
+const PlotPercentAreaChart = () => {
     const { id } = useParams();
     const history = useHistory();
     const getFileById = useStoreState((state) => state.getFileById);
-    const colorSets = useStoreState((state) => state.colorSets);
     const content = getFileById(id).content;
     const header = getFileById(id).headers;
     const [xValue, setXValue] = useState([]);
     const [yValue, setYValue] = useState([]);
+    const colorSets = useStoreState((state) => state.colorSets);
     const [validX, setValidX] = useState([]);
     const [validY, setValidY] = useState([]);
+   
     useEffect(() => {
       content.map((row,index)=>{
         if (index === 0) {
@@ -27,8 +29,7 @@ const PlotLineChart = () => {
         } 
       })
     }, [content, header]);
-   
-    
+     
     const handleClickRadio = (e) => {
       setXValue(e.target.value);
     }
@@ -40,8 +41,36 @@ const PlotLineChart = () => {
         setYValue(yValue.filter(yValue => yValue !== e.target.value))
       }
     }
+
+const toPercent = (decimal, fixed = 0) => `${(decimal * 100).toFixed(fixed)}%`;
+
+const getPercent = (value, total) => {
+  const ratio = total > 0 ? value / total : 0;
+
+  return toPercent(ratio, 2);
+};
+
+const renderTooltipContent = ({payload,label}) => {
+  if (payload) {
+    const total = payload.reduce((result, entry) => result + entry.value, 0);
+    return (
+      <div className="customized-tooltip-content">
+        <p className="total">{`${label} (Total: ${total})`}</p>
+        <ul className="list">
+          {payload.map((entry, index) => (
+            <li key={`item-${index}`} style={{ color: entry.color }}>
+              {`${entry.name}: ${entry.value}(${getPercent(entry.value, total)})`}
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+  } else {
+    return payload, label
+  }
+};
   return (
-    <main className='PlotLineChart'>
+    <main className='PlotRadialBarChart'>
       <div className='card'>
         <div className="card-header">
           Please select X and Y value(s) to make a plot:
@@ -76,43 +105,42 @@ const PlotLineChart = () => {
               </div>
             )
           })}
-         
         </div>
         </div>
         <div className="card-footer text-muted">
           {xValue.length && yValue.length ? `X value: ${xValue}, Y value(s): ${yValue}` : 'You should selet at lease one X value and one Y value'}
         </div>
       </div>
-      {content ? 
-        <ResponsiveContainer width="100%" height="100%">
-          <LineChart
-            width={500}
-            height={300}
-            data={content}
-            margin={{
-              top: 5,
-              right: 30,
-              left: 20,
-              bottom: 5,
-            }}
-          >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey={xValue} >
-          </XAxis>
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          {yValue.map((y,index) => {
-            return (
-            <Line type="monotone" dataKey={y} stroke={colorSets[index]} />
-            )
-          })}
-        </LineChart>
-      </ResponsiveContainer> : history.push('/')
-    }
-      
+      { !content ? history.push('/') : 
+       <ResponsiveContainer width="100%" height="100%">
+       <AreaChart
+         width={500}
+         height={400}
+         data={content}
+         stackOffset="expand"
+         margin={{
+           top: 10,
+           right: 30,
+           left: 0,
+           bottom: 0,
+         }}
+       >
+         <CartesianGrid strokeDasharray="3 3" />
+         <XAxis dataKey={xValue} />
+         <YAxis tickFormatter={toPercent} />
+         { xValue || yValue ?
+           <Tooltip content={renderTooltipContent} /> : null
+         }
+         
+         {yValue.map((y,index) => {
+          return <Area type="monotone" dataKey={y} stackId="1" stroke={colorSets[index]} fill={colorSets[index]} />
+         })}
+         
+       </AreaChart>
+     </ResponsiveContainer>
+      }
     </main>
-  );
+  )
 }
 
-export default PlotLineChart;
+export default PlotPercentAreaChart;
